@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+    <ion-title>Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <h2>Hola HumaUser, lo lograste!</h2>
+    </ion-row>
+
+    <ion-row>
+      <ion-button type="submit" (click)="authService.SignOut()" expand="block">Desconectarse</ion-button>
+    </ion-row>
+  </ion-grid>
+</ion-content>
